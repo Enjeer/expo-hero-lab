@@ -44,20 +44,24 @@ function HeroLab() {
         </div>
       </header>
 
-      <LabDivider index="01" name="Cinematic Space" note="scroll = движение камеры внутрь зала" />
+      {/* <LabDivider index="01" name="Cinematic Space" note="scroll = движение камеры внутрь зала" />
       <Hero01Cinematic />
 
       <LabDivider index="02" name="Spatial Object" note="mouse = наклон рига / scroll = приближение и раскрытие" />
-      <Hero02Spatial />
+      <Hero02Spatial /> */}
 
-      <LabDivider index="03" name="Kinetic Type" note="буквы EXPO как стены, которые разъезжаются" />
+      <LabDivider
+        index="03"
+        name="Kinetic Type"
+        note="буквы EXPO как стены, которые разъезжаются"
+      />
       <Hero03Kinetic />
 
-      <LabDivider index="04" name="Digital / Distortion" note="canvas: изображение собирается по мере скролла, курсор искажает" />
+      {/* <LabDivider index="04" name="Digital / Distortion" note="canvas: изображение собирается по мере скролла, курсор искажает" />
       <Hero04Digital />
 
       <LabDivider index="05" name="Unexpected — The Crate" note="перетащи ручку: кейс распаковывает событие" />
-      <Hero05Portal />
+      <Hero05Portal /> */}
 
       <footer className="border-t border-brand-line px-6 py-12 font-mono text-[10px] uppercase tracking-[0.35em] text-brand-dim md:px-10">
         end of lab — 5 / 5 концепций
