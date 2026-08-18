@@ -139,6 +139,7 @@
   --brand-flame: oklch(0.68 0.21 38);
   --brand-ember: oklch(0.55 0.19 32);
   --brand-dim: oklch(0.62 0.03 40);
+  --brand-chalk: oklch(0.97 0.005 60);
 }
 
 @theme inline {
@@ -147,6 +148,7 @@
   --color-brand-flame: var(--brand-flame);
   --color-brand-ember: var(--brand-ember);
   --color-brand-dim: var(--brand-dim);
+  --color-brand-chalk: var(--brand-chalk);
   --font-display: "Unbounded", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
   --font-sans: "Manrope", system-ui, sans-serif;

@@ -16,7 +16,7 @@ export function Hero03Kinetic() {
   const [revealRef, shown] = useReveal<HTMLDivElement>();
 
   const split = range(p, 0.05, 0.7);
-  const maskScale = 1 + range(p, 0.2, 1) * 7;
+  const maskScale = 1 + range(p, 0.62, 1) * 2.6;
 
   return (
     <section ref={sectionRef} className="relative h-[280vh] bg-[#f0eeea]">
@@ -59,7 +59,7 @@ export function Hero03Kinetic() {
         {/* masked EXPO scaling out of the floor image */}
         <div
           className="pointer-events-none absolute inset-0 flex items-center justify-center"
-          style={{ opacity: range(p, 0.35, 0.6) * (1 - range(p, 0.9, 1)) }}
+          style={{ opacity: range(p, 0.6, 0.78) * (1 - range(p, 0.93, 1)) }}
         >
           <span
             className="bg-clip-text font-display text-[30vh] leading-none tracking-[-0.06em] text-transparent"

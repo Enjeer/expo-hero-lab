@@ -26,7 +26,7 @@ export const Route = createFileRoute("/hero-lab")({
 
 function HeroLab() {
   return (
-    <main className="bg-brand-ink text-foreground">
+    <main className="bg-brand-ink text-brand-chalk">
       <header className="relative z-20 border-b border-brand-line bg-brand-ink">
         <div className="mx-auto flex max-w-[1600px] flex-wrap items-end justify-between gap-4 px-6 py-10 md:px-10 md:py-14">
           <div>
